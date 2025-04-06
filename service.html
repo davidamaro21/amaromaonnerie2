@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barre de Navigation</title>
+    <!-- Import de la police depuis Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="service.css">
+</head>
+<body>
+    <nav role="navigation" aria-label="Menu principal" id="navbar">
+        <div class="logo">
+            <a href="/Accueil/index2.html"><img src="logo_amaro_maconnerie.png" alt="Logo de l'entreprise"></a>
+        </div>
+        <button class="burger" aria-label="Ouvrir le menu">
+          ☰
+        </button>
+
+        <ul class="nav-buttons">
+            <li><a href="/service/service.html">Nos Services</a></li>
+            <li><a href="/nosrealisation/nosréalisation.html">Nos Réalisations</a></li>
+            <li><a href="/aproposdenous/apropos.html">À propos de Nous</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <button id="scrollTopBtn" onclick="scrollToTop()">↑</button>
+
+    <section class="services reveal">
+        <span class="section-pretitle reveal">Services</span>
+        <h2>Maçonnerie Traditionnelle et Rénovation de Qualité</h2>
+        <div class="service-item reveal">
+          <div class="service-text reveal">
+            <h3>Maçonnerie Générale</h3>
+            <p>Chez Amaro Maçonnerie, nous maîtrisons toutes les étapes de la maçonnerie traditionnelle et moderne. Nous intervenons pour vos projets neufs comme en rénovation :</p>
+            <ul>
+              <li>Création de fondations, murs porteurs et cloisons</li>
+              <li>Montage de murs en briques, parpaings ou pierres</li>
+              <li>Extensions et surélévations de maisons</li>
+              <li>Réhabilitation de bâtiments anciens</li>
+            </ul>
+          </div>
+          <div class="service-image">
+            <img src="image1.jpg" alt="Maçonnerie traditionnelle">
+          </div>
+        </div>
+      
+        <div class="service-item reverse reveal">
+          <div class="service-image reveal">
+            <img src="image2.jpg" alt="Enduit de façade">
+          </div>
+          <div class="service-text reveal">
+            <h3>Façades & Enduits</h3>
+            <p>Protégez et valorisez votre maison grâce à notre expertise en ravalement de façade. Nos équipes redonnent de l’éclat à vos extérieurs tout en assurant une protection durable contre le temps :</p>
+            <ul>
+              <li>Application d’enduits décoratifs ou traditionnels</li>
+              <li>Traitement des fissures et prévention des infiltrations</li>
+              <li>Nettoyage, réparation et rénovation complète des façades</li>
+            </ul>
+          </div>
+        </div>
+      
+        <div class="service-item reveal">
+          <div class="service-text reveal">
+            <h3>Aménagements de Sols</h3>
+            <p>Nos artisans posent et rénovent tous types de sols pour un rendu propre, stable et esthétique. Nous vous accompagnons dans vos projets d’aménagement :
+            </p>
+            <ul>
+              <li>Pose de carrelage, dallage, pavés ou béton désactivé</li>
+              <li>Réalisation de chapes traditionnelles ou fluides</li>
+              <li>Travaux de nivellement et préparation des supports</li>
+            </ul>
+          </div>
+          <div class="service-image reveal">
+            <img src="image3.jpg" alt="Travaux de sols">
+          </div>
+        </div>
+      </section>
+      
+
+    <footer>
+        <h2 class="footer-title reveal">Contact</h2>
+        <!-- Logo -->
+        <div class="footer-section footer-logo reveal">
+            <img src="logo_amaro_maconnerie.png" alt="Logo">
+        </div>
+        <!-- contact -->
+        <div class="footer-section reveal">
+            <div class="contact-info reveal">
+                <h3>Nous contacter ?</h3>
+                <p><strong>Tél :</strong> +33 6 33 95 82 71</p>
+                <p><strong>Mail :</strong> amaromaçonnerie@gmail.com</p>
+            </div>
+        </div>
+    
+        <!-- Où nous trouver -->
+        <div class="footer-section find-us">
+            <h3>Où nous trouver ?</h3>
+            <p><strong>Adresse :</strong> 36 Rue Pen Ar traon, 29490 Guipavas</p>
+        </div>
+    </footer>
+
+    <!-- Copyright -->
+    <div class="copyright">
+        &copy; 2024 SARL Amaro Maçonnerie. Tous droits réservés. Réalisation : David AMARO MONTEIRO 
+        <li><a href="/Mention Legale/mention.html">Mention Légale</a></li>
+    </div>
+
+    <script src="/Assets/java.js"></script> <!-- Lien vers le fichier JavaScript -->
+</body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barre de Navigation</title>
+    <!-- Import de la police depuis Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="apropos.css">
+</head>
+<body>
+    <nav role="navigation" aria-label="Menu principal" id="navbar">
+        <div class="logo">
+            <a href="/Accueil/index2.html"><img src="logo_amaro_maconnerie.png" alt="Logo de l'entreprise"></a>
+        </div>
+        <button class="burger" aria-label="Ouvrir le menu">
+            ☰
+        </button>
+
+        <ul class="nav-buttons">
+            <li><a href="/service/service.html">Nos Services</a></li>
+            <li><a href="/nosrealisation/nosréalisation.html">Nos Réalisations</a></li>
+            <li><a href="apropos.html">À propos de Nous</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <button id="scrollTopBtn" onclick="scrollToTop()">↑</button>
+
+    <Section class="apropos reveal">
+        <span class="section-pretitle reveal">A propos de nous</span>
+        <h1>À propos de Nous</h1>
+        <p>
+            Bienvenue chez <strong>Amaro Maçonnerie</strong>, une entreprise spécialisée dans la construction, la rénovation,
+            et la réalisation de projets sur mesure. Avec plus de 20 ans d'expérience, nous avons su bâtir une réputation
+            solide grâce à notre expertise et notre engagement envers la qualité.
+        </p>
+        <p>
+            Notre mission est de transformer vos idées en réalité, en combinant savoir-faire artisanal et technologies
+            modernes. Que vous souhaitiez rénover votre maison, construire un bâtiment commercial ou créer un espace
+            unique, notre équipe dévouée est là pour vous accompagner à chaque étape.
+        </p>
+        <p>
+            Chez <strong>Amaro Maçonnerie</strong>, nous croyons en l'importance de la satisfaction client. C'est pourquoi
+            nous nous efforçons de livrer des projets qui répondent non seulement à vos attentes, mais qui les dépassent. (texte à modifier)
+        </p>
+        <img src="apropos_image.jpg" alt="Image illustrant notre entreprise">
+    </Section>
+
+    <footer>
+        <h2 class="footer-title reveal">Contact</h2>
+        <!-- Logo -->
+        <div class="footer-section footer-logo reveal">
+            <img src="logo_amaro_maconnerie.png" alt="Logo">
+        </div>
+        <!-- contact -->
+        <div class="footer-section reveal">
+            <div class="contact-info reveal">
+                <h3>Nous contacter ?</h3>
+                <p><strong>Tél :</strong> +33 6 33 95 82 71</p>
+                <p><strong>Mail :</strong> amaromaçonnerie@gmail.com</p>
+            </div>
+        </div>
+    
+        <!-- Où nous trouver -->
+        <div class="footer-section find-us">
+            <h3>Où nous trouver ?</h3>
+            <p><strong>Adresse :</strong> 36 Rue Pen Ar traon, 29490 Guipavas</p>
+        </div>
+    </footer>
+
+    <!-- Copyright -->
+    <div class="copyright">
+        &copy; 2024 SARL Amaro Maçonnerie. Tous droits réservés. Réalisation : David AMARO MONTEIRO 
+        <li><a href="/Mention Legale/mention.html">Mention Légale</a></li>
+    </div>
+
+    <script src="/Assets/java.js"></script> <!-- Lien vers le fichier JavaScript -->
+</body>
+</html>
