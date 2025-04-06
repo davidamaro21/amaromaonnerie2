@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barre de Navigation</title>
+    <!-- Import de la police depuis Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="nosrealisation.css">
+</head>
+<body>
+    <nav role="navigation" aria-label="Menu principal" id="navbar">
+        <div class="logo">
+            <a href="/Accueil/index2.html"><img src="logo_amaro_maconnerie.png" alt="Logo de l'entreprise"></a>
+        </div>
+        <button class="burger" aria-label="Ouvrir le menu">
+            ☰
+        </button>
+
+        <ul class="nav-buttons">
+            <li><a href="/service/service.html">Nos Services</a></li>
+            <li><a href="/nosrealisation/nosréalisation.html">Nos Réalisations</a></li>
+            <li><a href="/aproposdenous/apropos.html">À propos de Nous</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <button id="scrollTopBtn" onclick="scrollToTop()">↑</button>
+
+    <section class="realisation">
+        <span class="section-pretitle">Réalisation</span>
+        <h2>Exemple de réalisation</h2>
+        <div class="realisation-gallery">
+            <a href="#modal1"><img src="image1.jpg" alt="Projet 1"></a>
+            <a href="#modal2"><img src="image2.jpg" alt="Projet 2"></a>
+            <a href="#modal3"><img src="image3.jpg" alt="Projet 3"></a>
+            <a href="#modal4"><img src="image4.jpg" alt="Projet 4"></a>
+            <a href="#modal5"><img src="image5.jpg" alt="Projet 5"></a>
+            <a href="#modal6"><img src="image6.jpg" alt="Projet 6"></a>
+            <a href="#modal7"><img src="image7.jpg" alt="Projet 7"></a>
+            <a href="#modal8"><img src="image8.jpg" alt="Projet 8"></a>
+            <a href="#modal9"><img src="image9.jpg" alt="Projet 9"></a>
+        </div>
+
+        <!-- Modal Sections -->
+        <div id="modal1" class="modal">
+            <img src="image1.jpg" alt="Zoom Projet 1">
+            <a href="#" class="close-modal">×</a>
+        </div>
+        <div id="modal2" class="modal">
+            <img src="image2.jpg" alt="Zoom Projet 2">
+            <a href="#" class="close-modal">×</a>
+        </div>
+        <div id="modal3" class="modal">
+            <img src="image3.jpg" alt="Zoom Projet 3">
+            <a href="#" class="close-modal">×</a>
+        </div>
+        <div id="modal4" class="modal">
+            <img src="image4.jpg" alt="Zoom Projet 4">
+            <a href="#" class="close-modal">×</a>
+        </div>
+        <div id="modal5" class="modal">
+            <img src="image5.jpg" alt="Zoom Projet 5">
+            <a href="#" class="close-modal">×</a>
+        </div>
+        <div id="modal6" class="modal">
+            <img src="image6.jpg" alt="Zoom Projet 6">
+            <a href="#" class="close-modal">×</a>
+        </div>
+        <div id="modal7" class="modal">
+            <img src="image7.jpg" alt="Zoom Projet 7">
+            <a href="#" class="close-modal">×</a>
+        </div>
+        <div id="modal8" class="modal">
+            <img src="image8.jpg" alt="Zoom Projet 8">
+            <a href="#" class="close-modal">×</a>
+        </div>
+        <div id="modal9" class="modal">
+            <img src="image9.jpg" alt="Zoom Projet 9">
+            <a href="#" class="close-modal">×</a>
+        </div>
+    </section>
+    
+    <footer>
+        <h2 class="footer-title">Contact</h2>
+        <!-- Logo -->
+        <div class="footer-section footer-logo">
+            <img src="logo_amaro_maconnerie.png" alt="Logo">
+        </div>
+        <!-- contact -->
+        <div class="footer-section">
+            <div class="contact-info">
+                <h3>Nous contacter ?</h3>
+                <p><strong>Tél :</strong> +33 6 33 95 82 71</p>
+                <p><strong>Mail :</strong> amaromaçonnerie@gmail.com</p>
+            </div>
+        </div>
+    
+        <!-- Où nous trouver -->
+        <div class="footer-section find-us">
+            <h3>Où nous trouver ?</h3>
+            <p><strong>Adresse :</strong> 36 Rue Pen Ar traon, 29490 Guipavas</p>
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.9999999999995!2d2.3522214!3d48.85661400000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e671d876!2sExample%20Address!5e0!3m2!1sen!2sfr!4v1234567890" 
+                width="300" 
+                height="200" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy"></iframe>
+        </div>
+    </footer>
+
+    <!-- Copyright -->
+    <div class="copyright">
+        &copy; 2024 SARL Amaro Maçonnerie. Tous droits réservés. Réalisation : David AMARO MONTEIRO 
+        <li><a href="/Mention Legale/mention.html">Mention Légale</a></li>
+    </div>
+
+    <script src="/Assets/java.js"></script> <!-- Lien vers le fichier JavaScript -->
+</body>
+</html>

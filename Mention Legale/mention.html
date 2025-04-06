@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barre de Navigation</title>
+    <!-- Import de la police depuis Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="mention.css">
+</head>
+<body>
+    <nav role="navigation" aria-label="Menu principal" id="navbar">
+        <div class="logo">
+            <a href="/Accueil/index2.html"><img src="logo_amaro_maconnerie.png" alt="Logo de l'entreprise"></a>
+        </div>
+        <button class="burger" aria-label="Ouvrir le menu">
+            ☰
+        </button>
+
+        <ul class="nav-buttons">
+            <li><a href="/service/service.html">Nos Services</a></li>
+            <li><a href="/nosrealisation/nosréalisation.html">Nos Réalisations</a></li>
+            <li><a href="/aproposdenous/apropos.html">À propos de Nous</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <button id="scrollTopBtn" onclick="scrollToTop()">↑</button>
+
+    <Section class="mentions-legales reveal">
+        <h2>Mentions Légales</h2>
+        <div class="contenu-mention reveal">
+            <h3>Éditeur du site</h3>
+            <p><strong>Amaro Maçonnerie</strong><br>
+            36 Rue Pen Ar traon<br>
+            29490 Guipavass<br>
+            SIRET : 983 557 539 00019<br>
+            Tél. : 06 33 95 82 71<br>
+            Responsable de publication : José AMARO</p>
+        
+            <h3>Développement</h3>
+            <p><strong>David AMARO MONTEIRO</strong><br>
+            Responsable du développement du site internet<br>
+            29000 QUIMPER<br>
+
+            <h3>Hébergement</h3>
+            <p><strong>OVH SAS</strong><br>
+            2 rue Kellermann – 59100 Roubaix – France<br>
+            Tél. : 09 72 10 10 07<br>
+            SIRET : 424 761 419 00045
+
+            <h3>Propriété intellectuelle</h3>
+            <p>
+                Tous les contenus présents sur ce site (textes, images, vidéos, graphismes, logo, etc.) sont la propriété exclusive de Monsieur José AMARO, sauf mention contraire.
+                Toute reproduction, modification ou utilisation des contenus sans autorisation est interdite.
+            </p>
+
+            <h3>Responsabilité</h3>
+            <p>
+                L’éditeur du site s’efforce de fournir des informations fiables, mais ne peut garantir l'exactitude ou la mise à jour permanente.
+                L’utilisation des informations se fait sous la seule responsabilité de l’utilisateur.
+                Les liens vers des sites externes ne relèvent pas de la responsabilité de l’éditeur.
+            </p>
+
+            <h3>Conditions d’utilisation</h3>
+            <p>
+              L’utilisation du présent site implique l’acceptation pleine et entière des conditions générales d’utilisation décrites ci-après. Ces conditions sont susceptibles d’être modifiées ou complétées à tout moment.
+            </p>
+        
+            <h3>Informations</h3>
+            <p>
+              Les informations et documents du site sont présentés à titre indicatif, ne revêtent pas un caractère exhaustif, et ne peuvent engager la responsabilité du propriétaire du site.<br>
+              Le propriétaire du site ne peut être tenu responsable des dommages directs ou indirects consécutifs à l’accès au site.
+            </p>
+          </div>
+    </Section>
+
+    <footer>
+        <h2 class="footer-title reveal">Contact</h2>
+        <!-- Logo -->
+        <div class="footer-section footer-logo reveal">
+            <img src="logo_amaro_maconnerie.png" alt="Logo">
+        </div>
+        <!-- contact -->
+        <div class="footer-section reveal">
+            <div class="contact-info reveal">
+                <h3>Nous contacter ?</h3>
+                <p><strong>Tél :</strong> +33 6 33 95 82 71</p>
+                <p><strong>Mail :</strong> amaromaçonnerie@gmail.com</p>
+            </div>
+        </div>
+    
+        <!-- Où nous trouver -->
+        <div class="footer-section find-us">
+            <h3>Où nous trouver ?</h3>
+            <p><strong>Adresse :</strong> 36 Rue Pen Ar traon, 29490 Guipavas</p>
+        </div>
+    </footer>
+
+    <!-- Copyright -->
+    <div class="copyright">
+        &copy; 2024 SARL Amaro Maçonnerie. Tous droits réservés. Réalisation : David AMARO MONTEIRO 
+        <li><a href="/Mention Legale/mention.html">Mention Légale</a></li>
+    </div>
+
+    <script src="/Assets/java.js"></script> <!-- Lien vers le fichier JavaScript -->
+</body>
+</html>
