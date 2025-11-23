@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barre de Navigation</title>
+    <!-- Import de la police depuis Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="service.css">
+</head>
+<body>
+    <nav role="navigation" aria-label="Menu principal" id="navbar">
+        <div class="logo">
+            <a href="/Accueil/index2.html"><img src="logo_amaro_maconnerie.png" alt="Logo de l'entreprise"></a>
+        </div>
+        <button class="burger" aria-label="Ouvrir le menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <ul class="nav-buttons">
+            <li><a href="/service/service.html">Nos Services</a></li>
+            <li><a href="/nosrealisation/nosréalisation.html">Nos Réalisations</a></li>
+            <li><a href="/aproposdenous/apropos.html">À propos de Nous</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <button id="scrollTopBtn" onclick="scrollToTop()">↑</button>
+
+    <section class="services reveal">
+          <span class="section-pretitle reveal">Services</span>
+          <h2>Maçonnerie Traditionnelle et Rénovation de Qualité</h2>
+          <div class="service-item reveal">
+            <div class="service-text reveal">
+              <h3>Maçonnerie et gros oeuvre</h3>
+              <ul>
+                <li>Construction de maisons, garages, exttensions et dépendances</li>
+                <li>Élévationde murs porteurs et cloisons</li>
+                <li>Dalles, fondations, linteaux et escaliers en béton</li>
+                <li>Réalisation de murs en parpaing, brique ou pierre</li>
+              </ul>
+            </div>
+            <div class="service-image">
+              <img src="image1.jpg" alt="Maçonnerie traditionnelle">
+            </div>
+          </div>
+      
+          <div class="service-item reverse reveal">
+            <div class="service-image reveal">
+              <img src="image2.jpg" alt="Enduit de façade">
+            </div>
+            <div class="service-text reveal">
+              <h3>Construction neuve</h3>
+              <ul>
+                <li>Construction complète ou partielle</li>
+                <li>Travaux de structure et finitions du gros œuvre</li>
+                <li>Suivi de chantier rigoureux et respect des délais</li>
+              </ul>
+            </div>
+          </div>
+      
+          <div class="service-item reveal">
+            <div class="service-text reveal">
+              <h3>Aménagements extérieurs</h3>
+              <ul>
+                <li>Création de terrasses en dalle béton</li>
+                <li>Construction de murets de clôture et murs de soutènement</li>
+                <li>Pose de poteaux et finitions extérieures sur mesure</li>
+              </ul>
+            </div>
+            <div class="service-image reveal">
+              <img src="image3.jpg" alt="Travaux de sols">
+            </div>
+          </div>
+      </section>
+      
+
+    <footer id="contact">
+        <h2 class="footer-title">Contact</h2>
+        <p>Vous avez un projet de construction, de maçonnerie ou d'aménagement extérieur ?</p>
+        <p>Contactez <strong>José Amaro Maçonnerie Générale</strong> dès aujourd'hui pour obtenir un <strong>devis gratuit et personnalisé.</strong></p>
+        <!-- Logo -->
+        <div class="footer-section footer-logo">
+            <img src="logo_amaro_maconnerie.png" alt="Logo">
+        </div>
+        <!-- contact -->
+        <div class="footer-section">
+            <div class="contact-info">
+                <p><strong>Téléphone :</strong> +33 6 33 15 76 62</p>
+                <p><strong>Email :</strong> amaromaçonnerie@gmail.com</p>
+                <p><strong>Adresse :</strong> Guipavas (29490)</p>
+            </div>
+        </div>
+
+        <div class="footer-section">
+            <div class="contact-info">
+                <h3>Horaires d'ouverture :</h3>
+                <p><strong>Lundi au vendredi :</strong> 8h00 - 18h00</p>
+                <p><strong>Samedi :</strong> Sur rendez-vous</p>
+                <p><strong>Dimanche :</strong> Fermé</p>
+            </div>
+        </div>
+    
+        <!-- Où nous trouver -->
+        <div class="footer-section find-us">
+            <h3>Zone d'intervention :</h3>
+        </div>
+        <p>Basés à Guipavas, notre entreprise intervient sur toute la <strong>région brestoise</strong> pour vos projets de maçonnerie générale, construction et aménagements extérieurs.</p>
+        
+        <p>N'hésitez pas à nous contacter pour disctuter de votre projet : nous vous répondrons rapidement avec des solutions adaptées à vos besoins et à votre budget.</p>
+    </footer>
+
+    <!-- Copyright -->
+    <div class="copyright">
+        &copy; 2024 SARL Amaro Maçonnerie. Tous droits réservés. Réalisation : David AMARO MONTEIRO 
+        <li><a href="/Mention Legale/mention.html">Mention Légale</a></li>
+    </div>
+
+    <script src="/Assets/java.js"></script> <!-- Lien vers le fichier JavaScript -->
+</body>
+</html>
